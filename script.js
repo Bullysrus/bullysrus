@@ -42,41 +42,43 @@ observer.observe(section);
 
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    const carousel = document.querySelector(".carousel");
+    const carousels = document.querySelectorAll(".carousel");
 
-    if (!carousel) return;
+    carousels.forEach((carousel) => {
 
-    const track = carousel.querySelector(".carousel-track");
-    const images = carousel.querySelectorAll(".carousel-image");
-    const nextButton = carousel.querySelector(".next");
-    const prevButton = carousel.querySelector(".prev");
+        const track = carousel.querySelector(".carousel-track");
+        const images = carousel.querySelectorAll(".carousel-image");
+        const next = carousel.querySelector(".next");
+        const prev = carousel.querySelector(".prev");
 
-    let currentIndex = 0;
+        let index = 0;
 
-    function updateCarousel() {
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
+        if (!track || images.length === 0) return;
 
-    nextButton.addEventListener("click", function () {
-        currentIndex++;
+        next.addEventListener("click", () => {
+            index++;
 
-        if (currentIndex >= images.length) {
-            currentIndex = 0;
-        }
+            if (index >= images.length) {
+                index = 0;
+            }
 
-        updateCarousel();
+            track.style.transform = `translateX(-${index * 100}%)`;
+        });
+
+
+        prev.addEventListener("click", () => {
+            index--;
+
+            if (index < 0) {
+                index = images.length - 1;
+            }
+
+            track.style.transform = `translateX(-${index * 100}%)`;
+        });
+
     });
 
-    prevButton.addEventListener("click", function () {
-        currentIndex--;
-
-        if (currentIndex < 0) {
-            currentIndex = images.length - 1;
-        }
-
-        updateCarousel();
-    });
-
+});
 });
