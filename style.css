@@ -1,154 +1,303 @@
-* {
-    box-sizing: border-box;
+/* =========================
+   BUL LYS R US LUXURY STYLE
+   ========================= */
+
+
+:root {
+
+--cream: #f9f3e8;
+
+--sage: #a8b89a;
+
+--blue: #dbeaf5;
+
+--gold: #c8a75d;
+
+--text: #3b382f;
+
+--white: #ffffff;
+
 }
+
+
+
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #fff7f3;
-    color: #222;
-    text-align: center;
-}
 
+margin: 0;
 
-header {
-    background: #111;
-    color: white;
-    padding: 60px 20px;
-}
+background: var(--cream);
 
+color: var(--text);
 
-header h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
+font-family: 'Montserrat', sans-serif;
 
+font-weight: 300;
 
-header p {
-    font-size: 18px;
 }
 
 
 
-nav {
-    background: #d9a6a8;
-    padding: 15px;
-    position: sticky;
-    top: 0;
+h1,
+h2,
+h3 {
+
+font-family: 'Cormorant Garamond', serif;
+
+letter-spacing: 1px;
+
 }
 
-
-nav a {
-    color: #111;
-    text-decoration: none;
-    margin: 0 12px;
-    font-weight: bold;
-}
-
-
-
-.hero {
-    padding: 80px 20px;
-    background: linear-gradient(#ffffff, #fff7f3);
-}
-
-
-section {
-    padding: 50px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
 
 
 h2 {
-    font-size: 32px;
+
+font-size: 48px;
+
+margin-bottom: 25px;
+
 }
 
 
 
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+p {
+
+line-height: 1.8;
+
+font-size: 17px;
+
 }
 
 
 
-.card {
-    background: white;
-    width: 280px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+
+
+
+
+/* HERO SECTION */
+
+
+.hero {
+
+height: 100vh;
+
+background-image: url("images/hero.jpg");
+
+background-size: cover;
+
+background-position: center;
+
+position: relative;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+text-align: center;
+
 }
 
 
 
-.card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 15px;
+.overlay {
+
+position: absolute;
+
+inset: 0;
+
+background:
+linear-gradient(
+rgba(249,243,232,.55),
+rgba(249,243,232,.75)
+);
+
 }
 
 
 
-.feature-image {
-    width: 350px;
-    max-width: 90%;
-    border-radius: 20px;
+.hero-content {
+
+position: relative;
+
+z-index: 2;
+
 }
 
 
 
-.map {
-    height: 250px;
-    background: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+.logo {
+
+width: 180px;
+
+margin-bottom: 20px;
+
 }
 
 
 
-.instagram-button {
-    display: inline-block;
-    background: #111;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
+.hero h1 {
+
+font-size: 90px;
+
+margin: 0;
+
+color: #4a4030;
+
 }
 
 
 
-.instagram-button:hover {
-    opacity: .8;
+.hero h2 {
+
+font-size: 38px;
+
+font-weight: 400;
+
 }
 
 
 
-footer {
-    background: #111;
-    color: white;
-    padding: 25px;
-    margin-top: 40px;
+.hero p {
+
+font-size: 20px;
+
 }
 
 
 
-@media(max-width:600px){
+.gold-button {
 
-header h1 {
-    font-size: 36px;
+display: inline-block;
+
+margin-top: 25px;
+
+padding: 15px 40px;
+
+background: var(--gold);
+
+color:white;
+
+border-radius: 50px;
+
+text-decoration:none;
+
+letter-spacing:2px;
+
+transition:.3s;
+
 }
+
+
+
+.gold-button:hover {
+
+transform: translateY(-3px);
+
+opacity:.85;
+
+}
+
+
+
+
+
+
+/* NAVIGATION */
+
+
+nav {
+
+background:white;
+
+padding:20px;
+
+display:flex;
+
+justify-content:center;
+
+gap:35px;
+
+position:sticky;
+
+top:0;
+
+z-index:10;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+
 
 nav a {
-    display: block;
-    margin: 10px;
+
+text-decoration:none;
+
+color:var(--text);
+
+font-weight:500;
+
+font-size:14px;
+
+text-transform:uppercase;
+
+letter-spacing:2px;
+
 }
+
+
+
+nav a:hover {
+
+color:var(--gold);
+
+}
+
+
+
+
+
+
+/* SECTIONS */
+
+
+section {
+
+padding:90px 10%;
+
+text-align:center;
+
+}
+
+
+
+.cream-section {
+
+background:#fffaf2;
+
+}
+
+
+
+.blue-section {
+
+background:var(--blue);
 
 }
