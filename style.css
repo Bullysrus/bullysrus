@@ -671,3 +671,198 @@ font-size:40px;
 margin:10px;
 
 }
+/* =========================
+   ANIMATIONS & MOBILE DESIGN
+   ========================= */
+
+
+@keyframes fadeUp {
+
+from {
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+
+to {
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+.hero-content {
+
+animation: fadeUp 1.5s ease;
+
+}
+
+
+
+
+
+/* Soft luxury details */
+
+
+section h2::after {
+
+content:"";
+
+display:block;
+
+width:80px;
+
+height:2px;
+
+background:var(--gold);
+
+margin:20px auto;
+
+}
+
+
+
+
+
+/* Mobile Layout */
+
+
+@media(max-width:768px){
+
+
+.hero {
+
+height:85vh;
+
+}
+
+
+
+.hero h1 {
+
+font-size:55px;
+
+}
+
+
+
+.hero h2 {
+
+font-size:28px;
+
+}
+
+
+
+.hero p {
+
+font-size:16px;
+
+}
+
+
+
+.logo {
+
+width:130px;
+
+}
+
+
+
+
+nav {
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+
+
+section {
+
+padding:60px 25px;
+
+}
+
+
+
+h2 {
+
+font-size:38px;
+
+}
+
+
+
+.profile img {
+
+width:100%;
+
+height:auto;
+
+}
+
+
+
+.profile div {
+
+text-align:center;
+
+}
+
+
+
+.dog-card {
+
+width:100%;
+
+}
+
+
+
+.gallery img {
+
+height:250px;
+
+}
+
+
+}
+
+
+
+
+
+/* Extra small phones */
+
+
+@media(max-width:400px){
+
+
+.hero h1 {
+
+font-size:45px;
+
+}
+
+
+.gold-button,
+.instagram-button {
+
+padding:14px 25px;
+
+}
+
+
+}
