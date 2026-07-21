@@ -1,3 +1,43 @@
-body{font-family:Arial,sans-serif;margin:0;background:#faf7ef;color:#333}
-header{background:#c7d8c0;padding:20px}nav a{margin-right:12px}
-.hero{padding:40px}.ph{height:250px;border:2px dashed #8fb7d9;display:flex;align-items:center;justify-content:center;background:#eef7fb}
+// Bullys R Us Website Scripts
+
+console.log("Bullys R Us Luxury Website Loaded");
+
+
+// Adds a small fade effect as sections appear
+
+const sections = document.querySelectorAll("section");
+
+
+const observer = new IntersectionObserver(entries => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity = "1";
+
+entry.target.style.transform = "translateY(0)";
+
+}
+
+});
+
+}, {
+
+threshold: .15
+
+});
+
+
+
+sections.forEach(section => {
+
+section.style.opacity = "0";
+
+section.style.transform = "translateY(30px)";
+
+section.style.transition = "all .8s ease";
+
+observer.observe(section);
+
+});
