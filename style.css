@@ -906,3 +906,11 @@ padding:14px 25px;
 .next {
     right: 20px;
 }
+.dog-profile-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 30px;
+}
