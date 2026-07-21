@@ -301,3 +301,373 @@ background:#fffaf2;
 background:var(--blue);
 
 }
+/* =========================
+   DOG CARDS
+   ========================= */
+
+
+.cards {
+
+display:flex;
+
+justify-content:center;
+
+gap:35px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.dog-card {
+
+background:white;
+
+width:320px;
+
+padding:25px;
+
+border-radius:25px;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+
+
+.dog-card:hover {
+
+transform:translateY(-8px);
+
+}
+
+
+
+.dog-card img {
+
+width:100%;
+
+height:330px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+}
+
+
+
+.dog-card h3 {
+
+font-size:32px;
+
+margin:20px 0 5px;
+
+}
+
+
+
+
+
+/* =========================
+   STUD PROFILE
+   ========================= */
+
+
+.profile {
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:60px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.profile img {
+
+width:400px;
+
+height:450px;
+
+object-fit:cover;
+
+border-radius:30px;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.12);
+
+}
+
+
+
+.profile div {
+
+max-width:400px;
+
+text-align:left;
+
+}
+
+
+
+
+
+/* =========================
+   FEATURE IMAGES
+   ========================= */
+
+
+.feature {
+
+width:450px;
+
+max-width:90%;
+
+border-radius:30px;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.12);
+
+}
+
+
+
+
+
+/* =========================
+   GALLERY
+   ========================= */
+
+
+.gallery {
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.gallery img {
+
+width:100%;
+
+height:350px;
+
+object-fit:cover;
+
+border-radius:25px;
+
+transition:.3s;
+
+}
+
+
+
+.gallery img:hover {
+
+transform:scale(1.03);
+
+}
+
+
+
+
+
+/* =========================
+   TESTIMONIALS
+   ========================= */
+
+
+.testimonial-section {
+
+background:var(--sage);
+
+}
+
+
+
+.testimonial {
+
+background:white;
+
+max-width:700px;
+
+margin:auto;
+
+padding:40px;
+
+border-radius:30px;
+
+font-style:italic;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.1);
+
+}
+
+
+
+
+
+/* =========================
+   FAQ
+   ========================= */
+
+
+.faq {
+
+max-width:800px;
+
+margin:auto;
+
+text-align:left;
+
+}
+
+
+
+.faq h3 {
+
+font-size:28px;
+
+color:#8d7840;
+
+margin-top:35px;
+
+}
+
+
+
+.faq p {
+
+background:white;
+
+padding:20px;
+
+border-radius:15px;
+
+}
+
+
+
+
+
+/* =========================
+   INSTAGRAM BUTTON
+   ========================= */
+
+
+.instagram-button {
+
+display:inline-block;
+
+background:#88a47c;
+
+color:white;
+
+padding:18px 45px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:500;
+
+letter-spacing:1px;
+
+transition:.3s;
+
+}
+
+
+
+.instagram-button:hover {
+
+background:#718b67;
+
+}
+
+
+
+
+
+/* =========================
+   MAP
+   ========================= */
+
+
+.map-box {
+
+height:350px;
+
+background:#eee7dc;
+
+border-radius:30px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:20px;
+
+color:#777;
+
+}
+
+
+
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+
+footer {
+
+background:#4a4030;
+
+color:white;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+
+
+.footer-logo {
+
+width:120px;
+
+margin-bottom:20px;
+
+}
+
+
+footer h3 {
+
+font-size:40px;
+
+margin:10px;
+
+}
