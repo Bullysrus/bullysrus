@@ -41,3 +41,42 @@ section.style.transition = "all .8s ease";
 observer.observe(section);
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const carousel = document.querySelector(".carousel");
+
+    if (!carousel) return;
+
+    const track = carousel.querySelector(".carousel-track");
+    const images = carousel.querySelectorAll(".carousel-image");
+    const nextButton = carousel.querySelector(".next");
+    const prevButton = carousel.querySelector(".prev");
+
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    nextButton.addEventListener("click", function () {
+        currentIndex++;
+
+        if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
+
+        updateCarousel();
+    });
+
+    prevButton.addEventListener("click", function () {
+        currentIndex--;
+
+        if (currentIndex < 0) {
+            currentIndex = images.length - 1;
+        }
+
+        updateCarousel();
+    });
+
+});
