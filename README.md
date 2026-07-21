@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Bullys R Us</title>
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><h1>Bullys R Us</h1><nav>
+<a href="index.html">Home</a> <a href="puppies.html">Puppies</a>
+<a href="studs.html">Studs</a> <a href="contact.html">Contact</a></nav></header>
+<section class="hero"><h2>Healthy French Bulldogs</h2>
+<p>[Replace this text]</p><div class="ph">Hero Image Placeholder</div></section>
+<footer>© Bullys R Us</footer><script src="js/script.js"></script></body></html>
