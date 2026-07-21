@@ -41,34 +41,3 @@ section.style.transition = "all .8s ease";
 observer.observe(section);
 
 });
-const track = document.querySelector(".carousel-track");
-const images = document.querySelectorAll(".carousel-image");
-const nextButton = document.querySelector(".next");
-const prevButton = document.querySelector(".prev");
-
-let currentIndex = 0;
-
-if (track && images.length > 0) {
-
-nextButton.addEventListener("click", () => {
-    currentIndex++;
-
-    if (currentIndex >= images.length) {
-        currentIndex = 0;
-    }
-
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
-});
-
-
-prevButton.addEventListener("click", () => {
-    currentIndex--;
-
-    if (currentIndex < 0) {
-        currentIndex = images.length - 1;
-    }
-
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
-});
-
-}
