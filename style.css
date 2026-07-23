@@ -970,3 +970,13 @@ padding:14px 25px;
 .logo-area h1 {
     margin: 0;
 }
+.small-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
