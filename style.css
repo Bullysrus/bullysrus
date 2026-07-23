@@ -980,3 +980,23 @@ padding:14px 25px;
     align-items: center;
     gap: 15px;
 }
+.process-page {
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.process-page h2 {
+    font-size: 45px;
+}
+
+.process-page h3 {
+    margin-top: 45px;
+    color: #b08d2c;
+}
+
+.process-page p {
+    line-height: 1.8;
+    font-size: 18px;
+}
