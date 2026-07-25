@@ -1125,3 +1125,10 @@ transform:rotate(45deg);
     margin-top: 20px;
     display: inline-block;
 }
+.female-slide {
+    min-width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
