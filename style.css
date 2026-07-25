@@ -1281,3 +1281,47 @@ transform:rotate(45deg);
     margin: 0 20px;
 }
 
+/* Mobile Hamburger Menu */
+
+.menu-toggle {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+.menu-toggle {
+    display: block;
+    margin-left: auto;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #b08d2c;
+    cursor: pointer;
+}
+
+
+#mobile-nav {
+    display: none;
+    flex-direction: column;
+    background: #fffaf2;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+
+#mobile-nav.active {
+    display: flex;
+}
+
+
+#mobile-nav a {
+    padding: 12px;
+    text-align: center;
+}
+
+}
