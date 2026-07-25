@@ -1294,38 +1294,4 @@ header {
 }
 
 
-.menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 32px;
-    color: #b08d2c;
-    cursor: pointer;
-}
 
-
-nav {
-    display: none;
-    flex-direction: column;
-    background: #fffaf2;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.12);
-}
-
-
-nav.active {
-    display: flex;
-}
-
-
-nav a {
-    padding: 12px;
-    text-align: center;
-    font-size: 16px;
-}
-
-}
