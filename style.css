@@ -1205,41 +1205,58 @@ transform:rotate(45deg);
     overflow: hidden;
     box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
-/* Luxury Carousel Styling */
+/* Luxury Carousel Frame */
 
 .carousel {
+    position: relative;
     max-width: 900px;
     margin: 50px auto;
-    background: #f8f1e7;
-    padding: 30px;
+    padding: 20px;
+    background: #fffaf2;
     border-radius: 35px;
-    overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
 
 
-.carousel-track {
-    border-radius: 25px;
-    overflow: hidden;
-}
-
+/* Soft rounded photo edges */
 
 .carousel-image {
-    height: 650px;
-    object-fit: cover;
     border-radius: 25px;
 }
 
 
+/* Elegant arrows */
+
 .carousel-btn {
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.95);
     color: #b08d2c;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
+    border: 1px solid rgba(176,141,44,0.25);
+    width: 55px;
+    height: 55px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
 
 .carousel-btn:hover {
-    transform: translateY(-50%) scale(1.1);
+    background: #ffffff;
+    transform: translateY(-50%) scale(1.08);
+}
+
+
+/* Add breathing room around sections */
+
+#gallery,
+#dogs,
+#studs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.female-slide {
+    background: white;
+    border-radius: 30px;
+    padding: 30px;
 }
