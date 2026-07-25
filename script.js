@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     carousels.forEach(function(carousel) {
 
         const track = carousel.querySelector(".carousel-track");
-        const slides = carousel.querySelectorAll(".carousel-image");
+     const slides = carousel.querySelectorAll(".carousel-image, .female-slide");
         const nextButton = carousel.querySelector(".next");
         const prevButton = carousel.querySelector(".prev");
 
