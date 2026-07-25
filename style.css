@@ -1097,3 +1097,31 @@ transform:rotate(45deg);
 .faq-container {
     margin-top: 45px;
 }
+.female-slide {
+    min-width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.female-slide h3 {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.female-slide p {
+    max-width: 650px;
+    margin: 15px auto;
+    line-height: 1.8;
+}
+
+.female-slide strong {
+    color: #b08d2c;
+    font-size: 18px;
+}
+
+.female-slide .gold-button {
+    margin-top: 20px;
+    display: inline-block;
+}
