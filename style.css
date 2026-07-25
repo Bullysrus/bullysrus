@@ -1177,3 +1177,31 @@ transform:rotate(45deg);
     margin-top: 20px;
     line-height: 1.8;
 }
+#gallery {
+    background: #f8f1e7;
+    padding: 80px 30px;
+    margin: 60px auto;
+    border-radius: 40px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.section-intro {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#gallery .carousel {
+    max-width: 850px;
+    margin: 40px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
