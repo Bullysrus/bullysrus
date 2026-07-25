@@ -89,3 +89,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+const menuButton = document.querySelector(".menu-toggle");
+const mobileNav = document.querySelector("#mobile-nav");
+
+if (menuButton && mobileNav) {
+
+    menuButton.addEventListener("click", function() {
+
+        mobileNav.classList.toggle("active");
+
+    });
+
+}
