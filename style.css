@@ -1138,3 +1138,42 @@ transform:rotate(45deg);
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.faq {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.faq details {
+    background: #ffffff;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.faq summary {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b08d2c;
+    list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary::after {
+    content: "+";
+    float: right;
+    font-size: 25px;
+}
+
+.faq details[open] summary::after {
+    content: "−";
+}
+
+.faq p {
+    margin-top: 20px;
+    line-height: 1.8;
+}
