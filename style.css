@@ -1205,3 +1205,41 @@ transform:rotate(45deg);
     overflow: hidden;
     box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
+/* Luxury Carousel Styling */
+
+.carousel {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #f8f1e7;
+    padding: 30px;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+
+.carousel-track {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.carousel-image {
+    height: 650px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.carousel-btn {
+    background: rgba(255,255,255,0.9);
+    color: #b08d2c;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+
+.carousel-btn:hover {
+    transform: translateY(-50%) scale(1.1);
+}
