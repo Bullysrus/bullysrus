@@ -1280,3 +1280,52 @@ transform:rotate(45deg);
     vertical-align: middle;
     margin: 0 20px;
 }
+.menu-toggle {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #b08d2c;
+    cursor: pointer;
+}
+
+
+nav {
+    display: none;
+    flex-direction: column;
+    background: #fffaf2;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+
+nav.active {
+    display: flex;
+}
+
+
+nav a {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+}
