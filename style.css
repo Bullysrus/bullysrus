@@ -1132,3 +1132,10 @@ transform:rotate(45deg);
     padding: 40px 20px;
     box-sizing: border-box;
 }
+#dogs {
+    background: #dceef7;
+    padding: 80px 20px;
+    border-radius: 40px;
+    margin: 50px auto;
+    max-width: 1200px;
+}
