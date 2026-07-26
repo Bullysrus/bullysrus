@@ -1406,3 +1406,88 @@ transform:rotate(45deg);
     background: var(--gold);
     margin: 15px auto 25px;
 }
+/* Puppy Application Page */
+
+.application {
+
+    max-width: 750px;
+    margin: 80px auto;
+    padding: 50px;
+    background: #fffaf2;
+    border-radius: 35px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.12);
+
+}
+
+
+.application h2 {
+
+    text-align:center;
+    font-size:55px;
+    font-family:'Cormorant Garamond', serif;
+    margin-bottom:20px;
+
+}
+
+
+.application > p {
+
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+    margin-bottom:40px;
+
+}
+
+
+.application form label {
+
+    display:block;
+    margin-top:25px;
+    margin-bottom:8px;
+    font-weight:500;
+
+}
+
+
+.application input,
+.application textarea {
+
+    width:100%;
+    padding:15px;
+    border-radius:15px;
+    border:1px solid #ddd;
+    font-family:inherit;
+    font-size:16px;
+    box-sizing:border-box;
+
+}
+
+
+.application textarea {
+
+    min-height:120px;
+    resize:vertical;
+
+}
+
+
+.application .gold-button {
+
+    display:block;
+    margin:35px auto 0;
+    border:none;
+    cursor:pointer;
+
+}
+
+
+.application-note {
+
+    text-align:center;
+    margin-top:30px;
+    font-size:14px;
+    line-height:1.6;
+    color:#666;
+
+}
