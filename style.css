@@ -2718,3 +2718,22 @@ font-size:38px;
     color:#555;
 
 }
+/* ==========================
+   STUDS HERO
+========================== */
+
+
+.stud-hero {
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.35)
+    ),
+    url("images/studs/PUT-YOUR-STUD-HERO-IMAGE-HERE.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
