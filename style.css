@@ -1785,3 +1785,12 @@ footer {
     color:#555;
     margin-bottom:25px;
 }
+.profile-info,
+.profile-description {
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    margin:30px auto;
+    max-width:800px;
+}
