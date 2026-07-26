@@ -2800,3 +2800,91 @@ font-size:38px;
     color:#4a4a42;
 
 }
+/* ==========================
+   BEHIND THE SCENES HERO
+========================== */
+
+
+.behind-hero {
+
+    height:450px;
+
+    position:relative;
+
+    background-image:url("images/home/IMG_9431.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+
+
+.behind-overlay {
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(250,247,240,.60);
+
+}
+
+
+
+.behind-hero-content {
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:800px;
+
+    padding:30px;
+
+    color:#4a4a42;
+
+}
+
+
+
+.behind-hero-content h1 {
+
+    font-size:55px;
+
+    color:#4f6049;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.behind-hero-content h2 {
+
+    font-size:28px;
+
+    color:#6f846b;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.behind-hero-content p {
+
+    font-size:20px;
+
+    line-height:1.7;
+
+}
