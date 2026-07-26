@@ -2888,3 +2888,89 @@ font-size:38px;
     line-height:1.7;
 
 }
+/* ==========================
+   INNER PAGE HERO STYLE
+========================== */
+
+
+.inner-hero {
+
+    height:450px;
+
+    position:relative;
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+
+
+.inner-hero-overlay {
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(250,247,240,.60);
+
+}
+
+
+
+.inner-hero-content {
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:800px;
+
+    padding:30px;
+
+}
+
+
+
+.inner-hero-content h1 {
+
+    font-size:55px;
+
+    color:#4f6049;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.inner-hero-content h2 {
+
+    font-size:28px;
+
+    color:#6f846b;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.inner-hero-content p {
+
+    font-size:20px;
+
+    line-height:1.7;
+
+    color:#4a4a42;
+
+}
