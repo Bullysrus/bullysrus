@@ -2569,3 +2569,23 @@ font-size:38px;
 
 
 }
+/* Fade Animation */
+
+.fade-section {
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:all .8s ease;
+
+}
+
+
+.fade-section.visible {
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
