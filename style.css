@@ -1398,3 +1398,11 @@ transform:rotate(45deg);
     transform:scale(1.04);
 
 }
+/* Stud Card Gold Divider */
+
+.card-divider {
+    width: 70px;
+    height: 2px;
+    background: var(--gold);
+    margin: 15px auto 25px;
+}
