@@ -1606,3 +1606,32 @@ transform:rotate(45deg);
     font-family:'Cormorant Garamond', serif;
     font-size:30px;
 }
+.hero-buttons {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+
+.outline-button {
+
+    display:inline-block;
+    padding:15px 40px;
+    border-radius:50px;
+    border:1px solid white;
+    color:white;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:.3s;
+
+}
+
+
+.outline-button:hover {
+
+    background:white;
+    color:#b08d2c;
+
+}
