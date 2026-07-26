@@ -2059,3 +2059,167 @@ left:40px;
 right:40px;
 
 }
+.gallery-hero {
+
+    height: 550px;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.35),
+    rgba(0,0,0,.35)
+    ),
+    url("images/home/IMG_9405.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+
+
+.gallery-hero-overlay {
+
+    color:white;
+
+    max-width:700px;
+
+    padding:30px;
+
+}
+
+
+
+.gallery-hero h1 {
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.gallery-hero p {
+
+    font-size:20px;
+
+}
+
+
+
+.gallery-cards {
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+    max-width:1100px;
+
+    margin:60px auto;
+
+}
+
+
+
+.gallery-card-link {
+
+    background:#fff;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+
+
+.gallery-card-link img {
+
+    width:100%;
+
+    height:350px;
+
+    object-fit:cover;
+
+}
+
+
+
+.gallery-card-content {
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+
+
+.gallery-card-content h2 {
+
+    color:#6f846b;
+
+    font-size:32px;
+
+}
+
+
+
+.gold-button {
+
+    display:inline-block;
+
+    background:#c7a15a;
+
+    color:white;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    margin-top:15px;
+
+}
+
+
+
+.gold-button:hover {
+
+    opacity:.8;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+.gallery-cards{
+
+grid-template-columns:1fr;
+
+}
+
+
+.gallery-hero h1{
+
+font-size:38px;
+
+}
+
+}
