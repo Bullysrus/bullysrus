@@ -1635,3 +1635,35 @@ transform:rotate(45deg);
     color:#b08d2c;
 
 }
+.hero-buttons {
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+
+}
+
+
+.hero-button {
+
+    display:inline-block;
+    padding:15px 40px;
+    background:white;
+    color:#b08d2c;
+    border-radius:50px;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+
+.hero-button:hover {
+
+    transform:translateY(-3px);
+    opacity:.85;
+
+}
