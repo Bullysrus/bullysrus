@@ -101,3 +101,65 @@ if (menuButton && mobileNav) {
     });
 
 }
+const galleryImages = document.querySelectorAll(".gallery-grid img");
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+
+const closeBtn = document.getElementById("close-lightbox");
+const prevBtn = document.getElementById("prev-image");
+const nextBtn = document.getElementById("next-image");
+
+let currentImage = 0;
+
+galleryImages.forEach((img,index)=>{
+
+img.addEventListener("click",()=>{
+
+currentImage=index;
+
+showImage();
+
+lightbox.style.display="flex";
+
+});
+
+});
+
+function showImage(){
+
+lightboxImage.src=galleryImages[currentImage].src;
+
+}
+
+nextBtn.onclick=function(){
+
+currentImage=(currentImage+1)%galleryImages.length;
+
+showImage();
+
+}
+
+prevBtn.onclick=function(){
+
+currentImage=(currentImage-1+galleryImages.length)%galleryImages.length;
+
+showImage();
+
+}
+
+closeBtn.onclick=function(){
+
+lightbox.style.display="none";
+
+}
+
+lightbox.onclick=function(e){
+
+if(e.target===lightbox){
+
+lightbox.style.display="none";
+
+}
+
+}
