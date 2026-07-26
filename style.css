@@ -1581,3 +1581,28 @@ transform:rotate(45deg);
     flex-wrap:wrap;
 
 }
+.process-section {
+    margin: 90px 0;
+}
+
+.process-title {
+    font-family:'Cormorant Garamond', serif;
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.process-title span {
+    color:var(--gold);
+    margin-right:15px;
+}
+
+.section-subtitle {
+    font-style:italic;
+    margin-bottom:40px;
+    color:#666;
+}
+
+.process-card h4 {
+    font-family:'Cormorant Garamond', serif;
+    font-size:30px;
+}
