@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 const sections = document.querySelectorAll(
-    ".hero, .gallery-page, .female-page, .female-profile"
+    ".hero"
 );
+
 
 
 const observer = new IntersectionObserver(entries => {
