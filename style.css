@@ -2679,3 +2679,42 @@ font-size:38px;
     transform:translateY(0);
 
 }
+.female-info {
+
+    background:#faf7f0;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    margin:40px auto;
+
+    max-width:850px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    border:1px solid rgba(199,161,90,.35);
+
+}
+
+
+.female-info h3 {
+
+    color:#6f846b;
+
+    font-size:28px;
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+
+.female-info p {
+
+    line-height:1.8;
+
+    color:#555;
+
+}
