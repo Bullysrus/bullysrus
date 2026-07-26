@@ -2737,3 +2737,66 @@ font-size:38px;
     background-position:center;
 
 }
+.female-hero,
+.stud-hero {
+
+    position:relative;
+
+}
+
+
+.female-hero-overlay,
+.stud-overlay {
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(250,247,240,0.55);
+
+}
+
+
+
+.female-hero-overlay,
+.stud-hero-content {
+
+    position:relative;
+
+    z-index:2;
+
+    color:#3d4035;
+
+    max-width:750px;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+
+
+.female-hero h1,
+.stud-hero h1 {
+
+    font-size:55px;
+
+    color:#4f6049;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.female-hero p,
+.stud-hero p {
+
+    font-size:20px;
+
+    line-height:1.7;
+
+    color:#4a4a42;
+
+}
