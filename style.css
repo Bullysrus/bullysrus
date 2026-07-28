@@ -3228,3 +3228,51 @@ height:350px;
 }
 
 }
+/* ==========================
+FINAL MOBILE CLEANUP
+KEEP DESKTOP STYLE
+========================== */
+
+@media (max-width:768px){
+
+body {
+    overflow-x:hidden;
+}
+
+nav {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero {
+    min-height:650px;
+}
+
+.hero h1 {
+    font-size:60px;
+}
+
+section {
+    padding:70px 40px;
+}
+
+.female-preview-grid,
+.female-cards {
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.female-preview-card img,
+.female-card img {
+    height:280px;
+}
+
+.dog-card {
+    width:320px;
+}
+
+.gallery-cards {
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
