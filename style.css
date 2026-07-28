@@ -3091,3 +3091,33 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 }
+/* Review Card Details */
+
+.stars {
+
+color:var(--gold);
+font-size:22px;
+letter-spacing:5px;
+margin-bottom:15px;
+
+}
+
+
+.puppy-name {
+
+font-family:'Cormorant Garamond', serif;
+font-size:36px;
+margin:0 0 15px;
+
+}
+
+
+.testimonial-card h4 {
+
+font-family:'Montserrat', sans-serif;
+font-size:15px;
+font-weight:400;
+color:#777;
+margin-top:25px;
+
+}
