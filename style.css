@@ -2974,3 +2974,15 @@ font-size:38px;
     color:#4a4a42;
 
 }
+.inner-hero-content h1{
+    margin-bottom:12px;
+}
+
+.inner-hero-content h2{
+    margin-bottom:22px;
+}
+
+.inner-hero-content p{
+    max-width:700px;
+    margin:auto;
+}
