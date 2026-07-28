@@ -3085,3 +3085,9 @@ margin-top:20px;
 font-size:18px;
 
 }
+.testimonial-card {
+min-height:280px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
