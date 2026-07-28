@@ -737,7 +737,7 @@ margin:20px auto;
 @media(max-width:768px){
 
 .hero {
-    min-height:750px;
+    min-height:650px;
 }
 
 .hero h1 {
