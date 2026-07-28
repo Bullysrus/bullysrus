@@ -3293,3 +3293,23 @@ header {
     z-index:1000;
     background:white;
 }
+/* MOBILE DESKTOP STYLE TEST */
+
+@media (max-width:768px){
+
+.female-preview-grid,
+.female-cards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+}
+
+.female-preview-card img,
+.female-card img {
+    height:220px;
+}
+
+.gallery-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
