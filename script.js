@@ -371,3 +371,41 @@ if (
 
 
 });
+const reviewTrack = document.querySelector(".testimonial-track");
+const reviewCards = document.querySelectorAll(".testimonial-card");
+const reviewNext = document.querySelector(".testimonial-carousel .next");
+const reviewPrev = document.querySelector(".testimonial-carousel .prev");
+
+let reviewIndex = 0;
+
+
+if(reviewTrack && reviewCards.length){
+
+reviewNext.addEventListener("click",()=>{
+
+reviewIndex++;
+
+if(reviewIndex >= reviewCards.length){
+reviewIndex = 0;
+}
+
+reviewTrack.style.transform =
+`translateX(-${reviewIndex * 100}%)`;
+
+});
+
+
+reviewPrev.addEventListener("click",()=>{
+
+reviewIndex--;
+
+if(reviewIndex < 0){
+reviewIndex = reviewCards.length - 1;
+}
+
+reviewTrack.style.transform =
+`translateX(-${reviewIndex * 100}%)`;
+
+});
+
+}
