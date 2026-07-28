@@ -1247,19 +1247,20 @@ transform:rotate(45deg);
 
 
 #mobile-nav {
-    display:none;
+    display:flex;
     flex-direction:column;
     align-items:center;
 }
 
 
-#mobile-nav.active {
-    display:flex;
+#mobile-nav a {
+    display:none;
+    padding:12px;
 }
 
 
-#mobile-nav a {
-    padding:12px;
+#mobile-nav.active a {
+    display:block;
 }
 
 }
