@@ -732,116 +732,71 @@ margin:20px auto;
 
 
 
-/* Mobile Layout */
-
+/* Desktop-style Mobile Layout */
 
 @media(max-width:768px){
 
-
 .hero {
-
-height:85vh;
-
+    min-height:750px;
 }
-
-
 
 .hero h1 {
-
-font-size:55px;
-
+    font-size:70px;
 }
-
-
 
 .hero h2 {
-
-font-size:28px;
-
+    font-size:34px;
 }
-
-
 
 .hero p {
-
-font-size:16px;
-
+    font-size:18px;
 }
-
-
 
 .logo {
-
-width:130px;
-
+    width:160px;
 }
 
 
-
-
+/* keep nav closer to desktop */
 nav {
-
-flex-direction:column;
-
-gap:15px;
-
+    flex-direction:row;
+    overflow-x:auto;
+    white-space:nowrap;
+    gap:25px;
 }
 
 
-
+/* keep luxury spacing */
 section {
-
-padding:60px 25px;
-
+    padding:80px 40px;
 }
-
-
 
 h2 {
-
-font-size:38px;
-
+    font-size:45px;
 }
 
+
+/* stop giant stretched cards */
+.dog-card {
+    width:320px;
+}
 
 
 .profile img {
-
-width:100%;
-
-height:auto;
-
+    width:400px;
+    max-width:100%;
 }
-
-
 
 .profile div {
-
-text-align:center;
-
+    text-align:center;
 }
-
-
-
-.dog-card {
-
-width:100%;
-
-}
-
 
 
 .gallery img {
-
-height:250px;
-
+    height:350px;
 }
 
-
 }
-
-
-
 
 
 /* Extra small phones */
