@@ -3225,3 +3225,15 @@ height:350px;
 }
 
 }
+@media (max-width: 768px) {
+
+    .female-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .female-card img {
+        height: 220px;
+    }
+
+}
