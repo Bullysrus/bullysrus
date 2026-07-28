@@ -882,7 +882,7 @@ padding:14px 25px;
     min-height: 120px;
 }
 .hero {
-    min-height: 750px;
+    min-height: 500px;
     background-image: linear-gradient(
         rgba(255,255,255,0.35),
         rgba(255,255,255,0.35)
