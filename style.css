@@ -1233,34 +1233,33 @@ transform:rotate(45deg);
 }
 
 
-@media (max-width: 768px) {
+@media (max-width:768px){
 
 .menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 32px;
-    color: #b08d2c;
-    cursor: pointer;
-    margin: 15px auto;
+    display:block;
+    background:none;
+    border:none;
+    font-size:32px;
+    color:#b08d2c;
+    cursor:pointer;
+    margin:15px auto;
 }
 
 
 #mobile-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display:none;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+#mobile-nav.active {
+    display:flex;
 }
 
 
 #mobile-nav a {
-    display: none;
-    padding: 12px;
-}
-
-
-#mobile-nav.active a {
-    display: block;
+    padding:12px;
 }
 
 }
