@@ -1264,6 +1264,18 @@ transform:rotate(45deg);
 }
 
 }
+/* Sticky Mobile Header */
+
+@media (max-width:768px){
+
+header {
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:white;
+}
+
+}
 /* Luxury Stud Cards */
 
 .gallery {
