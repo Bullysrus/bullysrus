@@ -3146,3 +3146,8 @@ left:15px;
 right:15px;
 
 }
+.testimonial-carousel .carousel-btn {
+    width:40px;
+    height:40px;
+    font-size:18px;
+}
