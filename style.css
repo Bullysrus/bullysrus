@@ -3151,3 +3151,27 @@ right:15px;
     height:40px;
     font-size:18px;
 }
+/* Homepage Gallery Polish */
+
+#gallery .carousel {
+
+max-width:900px;
+margin:40px auto;
+
+}
+
+
+#gallery .carousel-image {
+
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+
+#gallery .section-intro {
+
+max-width:700px;
+margin:0 auto 30px;
+
+}
