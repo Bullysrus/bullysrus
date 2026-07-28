@@ -3121,3 +3121,26 @@ color:#777;
 margin-top:25px;
 
 }
+/* Move review carousel arrows away from text */
+
+.testimonial-carousel {
+    padding: 0 80px;
+}
+
+
+.testimonial-carousel .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+
+.testimonial-carousel .prev {
+    left: 10px;
+}
+
+
+.testimonial-carousel .next {
+    right: 10px;
+}
