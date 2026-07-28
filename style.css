@@ -2441,18 +2441,18 @@ font-size:38px;
 
 @media(max-width:600px){
 
-    .female-cards {
+.female-cards {
 
-        grid-template-columns:1fr;
+grid-template-columns:repeat(2,1fr);
 
-    }
+}
 
 
-    .female-card img {
+.female-card img {
 
-        height:420px;
+height:300px;
 
-    }
+}
 
 }
 
@@ -2564,7 +2564,7 @@ font-size:38px;
 /* MOBILE */
 
 
-@media(max-width:900px){
+/*@media(max-width:900px){
 
 
 .female-cards {
@@ -2614,6 +2614,8 @@ font-size:38px;
 
 
 }
+*/
+
 /* Fade Animation */
 
 .fade-section {
