@@ -2986,3 +2986,51 @@ font-size:38px;
     max-width:700px;
     margin:auto;
 }
+/* STUD PREVIEW CARDS */
+
+.stud-preview-container {
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin:40px auto;
+
+}
+
+
+.stud-card {
+
+background:white;
+border-radius:20px;
+padding:20px;
+max-width:300px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+
+}
+
+
+.stud-card img {
+
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:15px;
+
+}
+
+
+.stud-card h3 {
+
+font-size:32px;
+margin:20px 0 10px;
+
+}
+
+
+.stud-card p {
+
+color:#555;
+
+}
