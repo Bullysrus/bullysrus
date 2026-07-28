@@ -3038,7 +3038,6 @@ color:#555;
    TESTIMONIAL CAROUSEL
 ========================== */
 
-
 .testimonial-carousel {
 
 max-width:750px;
@@ -3052,7 +3051,7 @@ position:relative;
 .testimonial-track {
 
 display:flex;
-transition:.5s ease;
+transition:transform .5s ease;
 
 }
 
@@ -3060,12 +3059,23 @@ transition:.5s ease;
 .testimonial-card {
 
 min-width:100%;
+flex:0 0 100%;
+
 background:white;
 border-radius:20px;
-padding:35px;
+
+padding:40px 60px;
+
 box-shadow:0 10px 30px rgba(0,0,0,.08);
+
 box-sizing:border-box;
 text-align:center;
+
+min-height:320px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
 
 }
 
@@ -3078,20 +3088,6 @@ color:#555;
 
 }
 
-
-.testimonial-card h3 {
-
-margin-top:20px;
-font-size:18px;
-
-}
-.testimonial-card {
-min-height:280px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-}
-/* Review Card Details */
 
 .stars {
 
@@ -3121,69 +3117,32 @@ color:#777;
 margin-top:25px;
 
 }
-/* Move review carousel arrows away from text */
-
-.testimonial-carousel {
-    padding: 0 80px;
-}
 
 
-.testimonial-carousel .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 5;
-}
-
-
-.testimonial-carousel .prev {
-    left: 10px;
-}
-
-
-.testimonial-carousel .next {
-    right: 10px;
-}
-/* Fix testimonial carousel layout */
-
-.testimonial-carousel {
-    max-width: 750px;
-    margin: 40px auto;
-    position: relative;
-    overflow: hidden;
-}
-
-
-.testimonial-track {
-    display: flex;
-    transition: transform .5s ease;
-}
-
-
-.testimonial-card {
-    min-width: 100%;
-    flex: 0 0 100%;
-    box-sizing: border-box;
-}
-
-
-/* Keep arrows outside the text */
+/* Review arrows */
 
 .testimonial-carousel .carousel-btn {
 
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    z-index:10;
+position:absolute;
+
+top:50%;
+
+transform:translateY(-50%);
+
+z-index:10;
 
 }
 
 
 .testimonial-carousel .prev {
-    left:15px;
+
+left:15px;
+
 }
 
 
 .testimonial-carousel .next {
-    right:15px;
+
+right:15px;
+
 }
