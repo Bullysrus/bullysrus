@@ -3306,3 +3306,18 @@ section {
 }
 
 }
+/* FEMALES PAGE MOBILE WIDTH FIX */
+
+@media(max-width:768px){
+
+.female-page,
+.female-profile {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.female-info {
+    padding:20px;
+}
+
+}
