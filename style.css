@@ -3175,3 +3175,99 @@ max-width:700px;
 margin:0 auto 30px;
 
 }
+/* ==========================
+HOMEPAGE FEMALE PREVIEW CARDS
+========================== */
+
+
+.female-preview-grid {
+
+display:grid;
+grid-template-columns:repeat(4, 1fr);
+gap:25px;
+max-width:1200px;
+margin:50px auto;
+padding:0 20px;
+
+}
+
+
+.female-preview-card {
+
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+padding-bottom:25px;
+transition:.3s ease;
+
+}
+
+
+.female-preview-card:hover {
+
+transform:translateY(-8px);
+box-shadow:0 18px 40px rgba(0,0,0,.12);
+
+}
+
+
+.female-preview-card img {
+
+width:100%;
+height:300px;
+object-fit:cover;
+
+}
+
+
+.female-preview-card h3 {
+
+font-family:'Cormorant Garamond', serif;
+font-size:34px;
+margin:20px 0 10px;
+
+}
+
+
+.female-preview-card p {
+
+color:#666;
+font-size:15px;
+line-height:1.6;
+margin:0 20px 20px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.female-preview-grid {
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+@media(max-width:600px){
+
+.female-preview-grid {
+
+grid-template-columns:1fr;
+max-width:350px;
+
+}
+
+
+.female-preview-card img {
+
+height:350px;
+
+}
+
+}
