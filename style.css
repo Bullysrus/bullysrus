@@ -3144,3 +3144,46 @@ margin-top:25px;
 .testimonial-carousel .next {
     right: 10px;
 }
+/* Fix testimonial carousel layout */
+
+.testimonial-carousel {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.testimonial-track {
+    display: flex;
+    transition: transform .5s ease;
+}
+
+
+.testimonial-card {
+    min-width: 100%;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+
+/* Keep arrows outside the text */
+
+.testimonial-carousel .carousel-btn {
+
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:10;
+
+}
+
+
+.testimonial-carousel .prev {
+    left:15px;
+}
+
+
+.testimonial-carousel .next {
+    right:15px;
+}
